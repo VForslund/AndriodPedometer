@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".Victor.Activity_Settings">
+
+    <TextView
+        android:id="@+id/Goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:text="Goal"/>
+    <TextView
+        android:id="@+id/stepsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/Goal"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:text="Step size"/>
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/stepsize"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:text="Notifications"/>
+
+
+        <Button
+            android:onClick="backToStart"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:id="@+id/backbutton"
+            android:layout_width="150sp"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:layout_below="@+id/notification"
+            android:alpha="0.5"
+            android:text="Back"
+            android:textSize="35sp"
+            ></Button>
+
+
+
+
+
+</RelativeLayout>
